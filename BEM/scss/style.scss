@@ -1,60 +1,58 @@
 //Добавляем шрифт Lato
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 //Файл обнуляющих стилей
 @import "_nullstyle";
 
-
 .about {
-    max-width: 1920px;
-    font-family: (Lato);
+      max-width: 1920px;
+      font-family: (Lato);
 }
 .part1 {
+      background: url(../img/part1.png) no-repeat;
+      height: 1058px;
 
-    background: url(../img/part1.png) no-repeat;
-    height: 1058px;
-
-		&__emblem {
+      &__emblem {
             padding: 140px 0px 150px 0px;
             display: flex;
             justify-content: center;
-		}
+      }
 
-		&__title {
+      &__title {
             text-align: center;
             color: #fff;
             letter-spacing: 5px;
-		}
+      }
 
-        &__text1 {
+      &__text1 {
             font-weight: 700;
             font-size: 34px;
             text-transform: uppercase;
-		}
+      }
 
-        &__text2 {
+      &__text2 {
             text-transform: lowercase;
             padding: (14px 0px 0px 0px);
             font-size: 26px;
-            &:after{
-                content:'';
-                display: block;
-                position: relative;
-                top: 46px;
-                width: 100px;
-                height: 1px;
-                background: #fff;
-                margin: 0px auto;
+            &:after {
+                  content: "";
+                  display: block;
+                  position: relative;
+                  top: 46px;
+                  width: 100px;
+                  height: 1px;
+                  background: #fff;
+                  margin: 0px auto;
             }
-		}
+      }
 
-		&__button {
+      &__button {
             width: 180px;
             height: 45px;
             margin: 0px auto;
-		}
+      }
 
-        &__address {
+      &__address {
             color: #fff;
             text-transform: uppercase;
             font-size: 16px;
@@ -65,61 +63,60 @@
             height: 45px;
             margin: (275px 0px 0px 0px);
             padding: 13px 0px 0px 0px;
-        }
-    
-		&__img {
-            margin: 75px 0px 0px 0px;
-		}
+      }
 
-        &__arrow{
+      &__img {
+            margin: 75px 0px 0px 0px;
+      }
+
+      &__arrow {
             display: block;
             margin: 0px auto;
-        }
+      }
 }
 
 .part2 {
-
       background: #fff;
       height: 768px;
       background-size: cover;
 
-            &__menu {
+      &__menu {
             font-size: 15px;
             text-transform: uppercase;
             display: flex;
             justify-content: center;
             margin: 15px 0px 150px 0px;
-		}
+      }
 
-		&__link1 {
+      &__link1 {
             margin: 0px 40px 0px 0px;
             color: #ada074;
-		}
+      }
 
-		&__link2 {
+      &__link2 {
             margin: 0px 40px 0px 0px;
             color: #000;
-		}
+      }
 
-		&__link3 {
+      &__link3 {
             margin: 0px 40px 0px 0px;
             color: #000;
-		}
+      }
 
-		&__link4 {
+      &__link4 {
             margin: 0px 40px 0px 0px;
             color: #000;
-		}
+      }
 
-		&__title {
+      &__title {
             font-size: 56px;
             font-weight: 700;
             text-transform: uppercase;
             text-align: center;
             letter-spacing: 10px;
             margin: 0px 0px 75px 0px;
-            &::after{
-                  content:'';
+            &::after {
+                  content: "";
                   display: block;
                   position: relative;
                   background: #000;
@@ -128,218 +125,214 @@
                   top: 35px;
                   margin: 0px auto;
             }
-		}
+      }
 
-		&__subtitle {
+      &__subtitle {
             font-size: 14px;
             font-weight: 300;
             text-align: center;
             line-height: 1.85;
             opacity: 0.5;
             margin: 0px 0px 70px 0px;
-		}
+      }
 
-		&__column {
+      &__column {
             display: flex;
             justify-content: space-between;
             margin: 0 auto;
             width: 900px;
-		}
+      }
 
-		&__part1 {
+      &__part1 {
             max-width: 285px;
-		}
+      }
 
-		&__img1 {
+      &__img1 {
             border: 1px solid #d3d3d3;
             border-radius: 50%;
             width: 90px;
             height: 90px;
             padding: 29px 0px 0px 23px;
             margin: 0 auto;
-		}
+      }
 
-		&__name1 {
+      &__name1 {
             font-size: 22px;
             text-align: center;
             margin: 38px 0px 0px 0px;
             letter-spacing: 5px;
-		}
+      }
 
-		&__text1 {
+      &__text1 {
             color: #868585;
             text-align: center;
             line-height: 1.857;
             margin: 36px 0px 0px 0px;
-		}
+      }
 
-		&__part2 {
+      &__part2 {
             max-width: 285px;
-		}
+      }
 
-            &__img2 {
+      &__img2 {
             border: 1px solid #d3d3d3;
             border-radius: 50%;
             width: 90px;
             height: 90px;
             padding: 29px 0px 0px 26px;
             margin: 0 auto;
-		}
+      }
 
-		&__name2 {
+      &__name2 {
             font-size: 22px;
             text-align: center;
             margin: 38px 0px 0px 0px;
             letter-spacing: 5px;
-		}
+      }
 
-		&__text2 {
+      &__text2 {
             color: #868585;
             text-align: center;
             line-height: 1.857;
             margin: 36px 0px 0px 0px;
-		}
+      }
 
-		&__part3 {
+      &__part3 {
             max-width: 285px;
-		}
+      }
 
-        &__img3 {
+      &__img3 {
             border: 1px solid #d3d3d3;
             border-radius: 50%;
             width: 90px;
             height: 90px;
             padding: 29px 0px 0px 26px;
             margin: 0 auto;
-		}
+      }
 
-		&__name3 {
+      &__name3 {
             font-size: 22px;
             text-align: center;
             margin: 38px 0px 0px 0px;
             letter-spacing: 5px;
-		}
+      }
 
-		&__text3 {
+      &__text3 {
             color: #868585;
             text-align: center;
             line-height: 1.857;
             margin: 36px 0px 0px 0px;
-		}
+      }
 }
 .part3 {
-    background: url(../img/part3.png);
-    height: 1670px;
-    background-size: cover;
+      background: url(../img/part3.png);
+      height: 1670px;
+      background-size: cover;
 
-		&__title {
+      &__title {
             font-size: 34px;
             text-align: center;
             text-transform: uppercase;
             font-weight: 700;
             letter-spacing: 5px;
             padding: 105px 0px 0px 0px;
-            &::after{
-                content:'';
-                display: block;
-                background: #000;
-                position: relative;
-                top: 40px;
-                width: 100px;
-                height: 1px;
-                margin: 0 auto;
-
+            &::after {
+                  content: "";
+                  display: block;
+                  background: #000;
+                  position: relative;
+                  top: 40px;
+                  width: 100px;
+                  height: 1px;
+                  margin: 0 auto;
             }
-		}
+      }
 
-		&__menu {
+      &__menu {
             font-size: 15px;
             text-transform: uppercase;
             display: flex;
             justify-content: center;
             margin: 80px 0px 137px 0px;
-		}
+      }
 
-		&__link1 {
+      &__link1 {
             margin: 0px 36px 0px 0px;
             color: #ada074;
-		}
+      }
 
-		&__link2 {
+      &__link2 {
             margin: 0px 36px 0px 0px;
             color: #000;
-		}
+      }
 
-		&__link3 {
+      &__link3 {
             margin: 0px 36px 0px 0px;
             color: #000;
-		}
+      }
 
-		&__link4 {
+      &__link4 {
             margin: 0px 0px 0px 0px;
             color: #000;
-		}
+      }
 
-		&__body-img {
+      &__body-img {
             width: 1100px;
             display: flex;
             flex-wrap: wrap;
             margin: 0 auto;
-		}
+      }
 
-		&__img1 {
+      &__img1 {
             display: inline-block;
             width: 535px;
             height: 360px;
             background: #eaeaea no-repeat;
             margin: 0px 25px 17px 0px;
-		}
+      }
 
-		&__img2 {
+      &__img2 {
             width: 535px;
             height: 360px;
             background: #eaeaea no-repeat;
             margin: 0px 0px 17px 0px;
+      }
 
-
-		}
-
-		&__img3 {
+      &__img3 {
             width: 535px;
             height: 360px;
             background: #eaeaea;
             margin: 0px 25px 17px 0px;
-		}
+      }
 
-		&__img4 {
+      &__img4 {
             width: 535px;
             height: 360px;
             background: #eaeaea;
             margin: 0px 0px 17px 0px;
-		}
+      }
 
-		&__img5 {
+      &__img5 {
             width: 535px;
             height: 360px;
             background: #eaeaea;
             margin: 0px 25px 17px 0px;
+      }
 
-		}
-
-		&__img6 {
+      &__img6 {
             width: 535px;
             height: 360px;
             background: #eaeaea;
             margin: 0px 0px 17px 0px;
-		}
+      }
 
-		&__link {
+      &__link {
             width: 180px;
             height: 45px;
             margin: 0 auto;
-		}
+      }
 
-        &__address{
+      &__address {
             display: block;
             text-align: center;
             color: #000;
@@ -350,15 +343,15 @@
             height: 45px;
             margin: 65px 0px 0px 0px;
             padding: 13px 0px 0px 0px;
-        }
+      }
 }
 .part4 {
-    background: url(../img/part4.png) no-repeat;
-    height: 390px;
-    background-size: cover;
-    background-position: 50%;
+      background: url(../img/part4.png) no-repeat;
+      height: 390px;
+      background-size: cover;
+      background-position: 50%;
 
-		&__title {
+      &__title {
             font-size: 30px;
             text-align: center;
             letter-spacing: 5px;
@@ -366,138 +359,133 @@
             color: #fff;
             opacity: 0.5;
             padding: 100px 0px 80px 0px;
-		}
+      }
 
-		&__img-group {
+      &__img-group {
             // display: inline-block;
             // justify-content: space-between;
             margin: 0 auto;
             max-width: 600px;
-		}
+      }
 
-		&__img1 {
+      &__img1 {
             display: inline-block;
             margin: 0px 0px 0px 0px;
-		}
+      }
 
-		&__img2 {
+      &__img2 {
             display: inline-block;
             margin: 0px 0px 0px 110px;
-        }
+      }
 
-		&__img3 {
+      &__img3 {
             display: inline-block;
             margin: 0px 0px 0px 110px;
-		}
+      }
 
-		&__img4 {
+      &__img4 {
             display: inline-block;
             margin: 0px 0px 0px 100px;
-		}
+      }
 }
 .part5 {
-    background: url(../img/part5.png) no-repeat;
-    height: 820px;
-    background-size: cover;
-    
-		&__title-text {
+      background: url(../img/part5.png) no-repeat;
+      height: 820px;
+      background-size: cover;
+
+      &__title-text {
             font-size: 34px;
             text-align: center;
             text-transform: uppercase;
             font-weight: 700;
             letter-spacing: 5px;
             padding: 180px 0px 0px 0px;
-            &::after{
-                content:'';
-                display: block;
-                background: #000;
-                position: relative;
-                top: 40px;
-                width: 100px;
-                height: 1px;
-                margin: 0 auto;}
-		}
+            &::after {
+                  content: "";
+                  display: block;
+                  background: #000;
+                  position: relative;
+                  top: 40px;
+                  width: 100px;
+                  height: 1px;
+                  margin: 0 auto;
+            }
+      }
 
-        &__content{
+      &__content {
             max-width: 900px;
             margin: 0 auto;
             display: flex;
-            
-        }
+      }
 
-		&__form-block {
+      &__form-block {
             display: flex;
             max-width: 392px;
             flex-wrap: wrap;
             margin: 100px 0px 0px 0px;
-		}
+      }
 
-		&__elem1 {
+      &__elem1 {
             width: 160px;
             height: 70px;
-		}
-        &__elem2 {
+      }
+      &__elem2 {
             width: 160px;
             height: 70px;
             margin: 0px 30px 75px 37px;
-		}
-        &__elem3 {
+      }
+      &__elem3 {
             width: 380px;
             height: 120px;
-		}
+      }
 
-		&__name {
+      &__name {
             font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
             font-weight: 700;
             margin: 0px 0px 20px 0px;
-		}
+      }
 
-		&__mail {
+      &__mail {
             font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
             font-weight: 700;
             margin: 0px 0px 20px 0px;
+      }
 
-		}
-
-		&__message {
+      &__message {
             font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
             font-weight: 700;
             margin: 0px 0px 20px 0px;
+      }
 
-		}
-
-		&__username {
+      &__username {
             border-top: 1px solid #000;
             width: 160px;
             height: 35px;
             background: #f8f7f7;
-		}
+      }
 
-        &__usermail {
+      &__usermail {
             border-top: 1px solid #000;
             width: 160px;
             height: 35px;
             background: #f8f7f7;
+      }
 
-		}
-
-        &__message-input {
+      &__message-input {
             border-top: 1px solid #000;
             width: 360px;
             height: 120px;
             background: #f8f7f7;
             resize: none;
+      }
 
-		}
-
-
-		&__button {
+      &__button {
             font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -508,100 +496,99 @@
             position: relative;
             top: 60px;
             left: 315px;
+      }
 
-		}
-
-        &__info{
+      &__info {
             display: block;
             width: 450px;
             // flex-direction: column;
             margin: 100px 0px 0px 60px;
-        }
+      }
 
-        &__text {
+      &__text {
             text-align: left;
             line-height: 1.857;
             font-weight: 300;
-        }
+      }
 
-        &__name2 {
+      &__name2 {
             margin: 38px 0px 20px 0px;
             font-weight: 700;
-        }
+      }
 
-        &__link1 {
+      &__link1 {
             display: inline-block;
             border: 1px solid #000;
             border-radius: 50%;
             width: 26px;
             height: 26px;
-        }
-        &__link2 {
+      }
+      &__link2 {
             display: inline-block;
             border: 1px solid #000;
             border-radius: 50%;
             width: 26px;
             height: 26px;
             margin: 0px 0px 0px 12px;
-        }
+      }
 
-        &__img1 img {
+      &__img1 img {
             padding: 4px 0px 0px 6px;
             flex-flow: row wrap;
-        }
+      }
 
-        &__img2 img {
+      &__img2 img {
             padding: 4px 0px 0px 6px;
             flex-flow: row wrap;
-        }
-        &__contact {
+      }
+      &__contact {
             margin: 15px 0px 0px 0px;
-        }
+      }
 
-        &__contact span {
+      &__contact span {
             font-weight: 700;
-        }
+      }
 }
 .part6 {
-    background: url(../img/part6.png) no-repeat;
-    height: 275px;
-    background-size: cover;
+      background: url(../img/part6.png) no-repeat;
+      height: 275px;
+      background-size: cover;
 
-        &__logo {
+      &__logo {
             display: flex;
             justify-content: center;
-		}
+      }
 
-        &__img {
+      &__img {
             margin: 48px 0px 40px 0px;
-		}
+      }
 
-		&__menu {
+      &__menu {
             text-align: center;
-		}
+      }
 
-		&__link1 {
+      &__link1 {
             color: #a4a4a4;
             margin: 0px 20px 0px 0px;
-		}
+      }
 
-		&__link2 {
+      &__link2 {
             color: #a4a4a4;
             margin: 0px 20px 0px 0px;
-		}
+      }
 
-		&__link3 {
+      &__link3 {
             color: #a4a4a4;
             margin: 0px 20px 0px 0px;
-		}
+      }
 
-		&__link4 {
+      &__link4 {
             color: #a4a4a4;
-		}
+      }
 
-		&__info {
+      &__info {
             margin: 30px 0px 0px 0px;
             text-align: center;
             color: #6c6c6c;
-		}
+      }
 }

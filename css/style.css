@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .part1__text2:after {
-  content: '';
+  content: "";
   display: block;
   position: relative;
   top: 46px;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .part2__title::after {
-  content: '';
+  content: "";
   display: block;
   position: relative;
   background: #000;
@@ -323,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .part3__title::after {
-  content: '';
+  content: "";
   display: block;
   background: #000;
   position: relative;
@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .part5__title-text::after {
-  content: '';
+  content: "";
   display: block;
   background: #000;
   position: relative;
