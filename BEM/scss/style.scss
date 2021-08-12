@@ -79,11 +79,11 @@
 
 .part2 {
 
-    background: #fff;
-    height: 768px;
-    background-size: cover;
+      background: #fff;
+      height: 768px;
+      background-size: cover;
 
-        &__menu {
+            &__menu {
             font-size: 15px;
             text-transform: uppercase;
             display: flex;
@@ -119,14 +119,14 @@
             letter-spacing: 10px;
             margin: 0px 0px 75px 0px;
             &::after{
-                content:'';
-                display: block;
-                position: relative;
-                background: #000;
-                width: 100px;
-                height: 2px;
-                top: 35px;
-                margin: 0px auto;
+                  content:'';
+                  display: block;
+                  position: relative;
+                  background: #000;
+                  width: 100px;
+                  height: 2px;
+                  top: 35px;
+                  margin: 0px auto;
             }
 		}
 
@@ -177,7 +177,7 @@
             max-width: 285px;
 		}
 
-        &__img2 {
+            &__img2 {
             border: 1px solid #d3d3d3;
             border-radius: 50%;
             width: 90px;
